@@ -153,6 +153,24 @@ ol {
   opacity: 1;
 }
 
+.button {
+  height: 34px;
+  background-color: transparent;
+  color: #fff;
+  font-family: 'Fira Sans Condensed', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  border: 1px solid currentColor;
+}
+
+.search-form__submit-button {
+  width: 194px;
+}
+
+.more-button {
+  width: 100%;
+}
+
 .title {
   font-family: Oswald, sans-serif;
   font-size: 75px;
@@ -179,7 +197,7 @@ ol {
   justify-content: space-between;
   row-gap: 30px;
   height: 298px;
-  overflow: scroll;
+  overflow-y: scroll;
 }
 
 .content__list {
