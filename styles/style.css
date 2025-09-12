@@ -136,6 +136,15 @@ ol {
   cursor: pointer;
 }
 
+.search-form__label:has(:focus) {
+  outline: none;
+}
+
+.search-form__label:has(:focus-visible) {
+  outline: 1px solid #fff;
+  outline-offset: 1px;
+}
+
 .search-form__label:has(input[type="checkbox"]):hover {
   text-decoration: underline;
 }
@@ -154,6 +163,7 @@ ol {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
+  outline: none;
 }
 
 .search-form__textfield::placeholder {
