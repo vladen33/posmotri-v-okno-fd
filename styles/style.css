@@ -136,11 +136,11 @@ ol {
   cursor: pointer;
 }
 
-.search-form__label:has(:focus) {
+.search-form__label:has(:focus) .search-form__textfield {
   outline: none;
 }
 
-.search-form__label:has(:focus-visible) {
+.search-form__label:has(:focus-visible) .search-form__textfield {
   outline: 1px solid #fff;
   outline-offset: 1px;
 }
