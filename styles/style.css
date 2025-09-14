@@ -121,17 +121,17 @@ ol {
 }
 
 .search-form__fieldset:has(.search-form__checkbox) {
+  align-items: center;
   width: 212px;
   margin-bottom: 5px;
-  align-items: center;
 }
 
 .search-form__label {
   display: flex;
   align-items: center;
   gap: 5px;
-  cursor: pointer;
   outline: none;
+  cursor: pointer;
 }
 
 .search-form__label:has(:focus-visible) {
@@ -157,6 +157,7 @@ ol {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
+  padding-left: 0px;
 }
 
 .search-form__textfield::placeholder {
@@ -230,12 +231,12 @@ ol {
 }
 
 .title {
+  padding-left: 1px;
   font-family: Oswald, sans-serif;
   font-weight: 700;
   font-size: 75px;
   line-height: 94%;
   text-transform: uppercase;
-  padding-left: 1px;
 }
 
 .content__accent {
@@ -245,9 +246,9 @@ ol {
 .content__list-container {
   position: relative;
   display: flex;
-  flex-direction: column;
-  height: 298px;  
+  flex-direction: column;  
   row-gap: 30px;
+  height: 298px;
   overflow-y: auto;
 }
 
@@ -260,8 +261,8 @@ ol {
 }
 
 .content__list-item {
-  cursor: pointer;
   margin-right: 3px;
+  cursor: pointer;
 }
 
 .content__card-link {
@@ -301,6 +302,7 @@ ol {
 }
 
 .content__video-card-title {
+  margin-top: 4px;
   overflow: hidden;
   font-family: Oswald, sans-serif;
   font-weight: 700;
@@ -309,11 +311,11 @@ ol {
   text-transform: uppercase;
   text-overflow: ellipsis;
   white-space: nowrap;
-  margin-top: 4px;
 }
 
 .content__video-card-description {
   display: -webkit-box;
+  margin-top: 4px;
   overflow: hidden;
   font-family: 'Fira Sans Condensed', sans-serif;
   font-weight: 400;
@@ -322,7 +324,6 @@ ol {
   -webkit-box-orient: vertical;
   line-clamp: 4;
   -webkit-line-clamp: 4;
-  margin-top: 4px;
 }
 
 .content__video-card-thumbnail {
