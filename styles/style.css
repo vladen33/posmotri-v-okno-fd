@@ -248,7 +248,7 @@ ol {
   flex-direction: column;
   height: 298px;  
   row-gap: 30px;
-  overflow-y: scroll;
+  overflow-y: auto;
 }
 
 .content__list {
